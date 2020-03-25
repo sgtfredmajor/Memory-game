@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
-import MemoryCard from "./components/MemoryCard";
+import MemoryCard from './components/MemoryCard';
+
+
 
 function App() {
   return (
@@ -15,6 +17,30 @@ function App() {
         </h3>
         <MemoryCard />
       </header>
+      <div>
+      <MemoryCard />
+      <MemoryCard />
+      <MemoryCard />
+      <MemoryCard />
+      </div>
+      <div>
+      <MemoryCard />
+      <MemoryCard />
+      <MemoryCard />
+      <MemoryCard />
+      </div>
+      <div>
+      <MemoryCard />
+      <MemoryCard />
+      <MemoryCard />
+      <MemoryCard />
+      </div>
+      <div>
+      <MemoryCard />
+      <MemoryCard />
+      <MemoryCard />
+      <MemoryCard />
+      </div>
     </div>
   );
 }
