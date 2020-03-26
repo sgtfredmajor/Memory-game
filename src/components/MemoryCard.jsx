@@ -3,7 +3,7 @@ import './MemoryCard.css';
 
 
 
-class MemoryCardBack extends Component {
+class MemoryCard extends Component {
   state = {
     isFlipped: false
   };
@@ -38,4 +38,4 @@ class MemoryCardBack extends Component {
   }
 }
 
-export default MemoryCardBack;
+export default MemoryCard;
